@@ -1,8 +1,5 @@
 import '@nomiclabs/hardhat-ethers';
 import '@nomiclabs/hardhat-etherscan';
-import "./tasks/push_jpeg.js";
-import "./tasks/push_special_jpeg.js";
-import "./tasks/transfer_jpeg.js";
 
 require('dotenv').config();
 
@@ -25,7 +22,7 @@ export default {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
   solidity: {
-    version: '0.8.14',
+    version: '0.8.15',
     settings: {
       optimizer: {
         enabled: true,
