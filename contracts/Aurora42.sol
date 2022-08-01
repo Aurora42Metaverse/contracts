@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.15;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
@@ -24,7 +25,7 @@ contract Aurora42 is ERC20, ERC20Burnable, ERC20Permit {
         _mint(treasuryVault, 900_000_000 ether);
         _mint(communityMultisig, 500_000_000 ether);
         _mint(foundersVault, 1_800_000_000 ether);
-        _mint(stakingVault, 2_000_000_000 ether);
+        _mint(stakingVault, 1_000_000_000 ether);
         _mint(seedVault, 400_000_000 ether);
         _mint(privateRound1Vault, 250_000_000 ether);
         _mint(privateRound2Vault, 350_000_000 ether);
